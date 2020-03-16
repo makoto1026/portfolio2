@@ -1,0 +1,16 @@
+.under-wrapper {
+  height: calc(800px - 30px);
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  &__image {
+    opacity: 0.3;
+    height: 100%;
+  }
+  &__title {
+    position: absolute;
+    text-align: center;
+  }
+
+
+} 
