@@ -1,0 +1,74 @@
+.about-wrapper {
+  height: 800px;
+  width: 100vw;
+  background-color: white;
+  padding: 150px;
+  &__text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    p {
+      width: 120px;
+      border-bottom: 1px solid gray;
+    }
+  }
+  &__box {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    &__left {
+      width: 50%;
+      padding: 0 50px 0 200px;
+      &--textBox {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          left: -10px;
+          top: -10px;
+          width: 30px;
+          height: 30px;
+          border-top: 5px double gray;
+          border-left: 5px double gray;
+          margin: 0;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          right: -10px;
+          bottom: 0;
+          width: 30px;
+          height: 30px;
+          border-bottom: 5px double gray;
+          border-right: 5px double gray;
+          margin: 0;
+        }
+        #about-title {
+          width: 100%;
+          font-size: 20px;
+          text-align: center;
+          margin: 20px 0;
+        }
+        p {
+          margin-left: 70px;
+          font-size: 12px;
+        }
+      }
+    }
+    &__right {
+      width: 50%;
+      padding: 20px;
+      &--image {
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+
+} 

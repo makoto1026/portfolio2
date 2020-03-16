@@ -1,16 +1,79 @@
 .under-wrapper {
-  height: calc(800px - 30px);
+  height: 800px;
   background-color: white;
-  overflow: hidden;
-  position: relative;
-  &__image {
-    opacity: 0.3;
-    height: 100%;
-  }
-  &__title {
-    position: absolute;
+  padding: 150px;
+  width: 100%;
+  &__text {
+    width: 100%;
     text-align: center;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    p {
+      width: 120px;
+      border-bottom: 1px solid gray;
+    }
   }
-
-
-} 
+  &__groups1 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: bold;
+    &--html {
+      width: 25%;
+      border-radius: 50% 50% 0 50%;
+      background-color: rgb(194, 248, 197);
+      position: relative;
+      margin: 5px;
+      &__text {
+        position: absolute;
+        top: 45%;
+        left: 35%;
+      }
+    }
+    &--ruby {
+      width: 25%;
+      border-radius: 50% 50% 50% 0;
+      background-color: rgb(252, 222, 227);
+      position: relative;
+      margin: 5px;
+      &__text {
+        position: absolute;
+        top: 45%;
+        left: 35%;
+      }
+    } 
+  }
+  &__groups2 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    &--js {
+      width: 25%;
+      border-radius: 50% 0 50% 50%;
+      background-color: rgb(255, 255, 198);
+      position: relative;
+      margin: 5px;
+      &__text {
+        position: absolute;
+        top: 45%;
+        left: 35%;
+      }
+    }
+    &--java {
+      width: 25%;
+      border-radius: 0 50% 50% 50%;
+      background-color: white;
+      border: 1px solid black;
+      position: relative;
+      margin: 5px;
+      &__text {
+        position: absolute;
+        top: 45%;
+        left: 35%;
+      }
+    }
+  } 
+}
