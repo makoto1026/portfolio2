@@ -1,15 +1,17 @@
 .main-wrapper
   .main-wrapper__title
-    App
+    %p App
   .main-wrapper__groups
     .main-wrapper__groups--app
       .main-wrapper__groups--app__link
-        ここに画像リンク
+        = image_tag src = "otokomeshi.png", class: "main-wrapper__groups--app__link"
       .main-wrapper__groups--app__title
-        ここにタイトル
+        料理投稿サイト「男飯」
     .main-wrapper__groups--app
       .main-wrapper__groups--app__link
-      .main-wrapper__groups--app__title    
+        = link_to image_tag("chat-space.png"), 'http://18.178.250.136/users/sign_in'
+      .main-wrapper__groups--app__title   
+        チャットアプリ 「chat-space」 
     .main-wrapper__groups--app
-      .main-wrapper__groups--app__link
-      .main-wrapper__groups--app__title 
+      .main-wrapper__groups--app__text
+        comming soon...

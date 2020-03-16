@@ -6,9 +6,10 @@
 @import "modules/main-wrapper";
 @import "modules/under-wrapper";
 @import "modules/footer";
+@import "modules/about";
 
 * {
-  width: 100vw;
+  width: 100%;
   font-feature-settings: "palt";
   box-sizing: border-box;
 }
