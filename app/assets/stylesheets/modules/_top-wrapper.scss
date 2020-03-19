@@ -1,7 +1,7 @@
 .loading {
   width: 100vw;
   height: 100vh;
-  transition: all 5s;
+  transition: all 3s;
   background-color: black;
   position: fixed;
   top: 0;
@@ -10,7 +10,7 @@
   .loading__spinner {
     width: 100px;
     height: 100px;
-    margin: 200px auto;
+    margin: 350px auto;
     background-color: #fff;
     border-radius: 100%;
     animation: sk-scaleout 0.7s infinite ease-in-out;
@@ -37,6 +37,8 @@
   overflow: hidden;
   background-size: cover;
   position: relative;
+  opacity: 0.5;
+  position: relative;
   &__right {
     width: 50%;
     height: 10px;
@@ -47,5 +49,14 @@
       left: 765px;
     }
   }
+  h1 {
+
+  }
 } 
+.top-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 100px;
+}
 

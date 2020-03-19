@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function(){
       heroBottom;
   
   _window.on('scroll',function(){
-      heroBottom = $('.top-wrapper__right--icon').height();
+      heroBottom = $('.main-wrapper').height();
       if(_window.scrollTop() > heroBottom){
           _header.addClass('transform');   
       }
