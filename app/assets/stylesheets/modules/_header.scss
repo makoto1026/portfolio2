@@ -1,15 +1,33 @@
 .site-header{
   background: rgba(255,255,255,0.5);
   display: flex;
-  padding: 60px 20px;
+  padding: 60px 200px;
   position: fixed;
   z-index: 1;
   justify-content: space-between;
   transition: .5s;
   width: 100%;
-  &__list {
-    width: 25%;
-    text-align: center;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  h1 {
+    font-size: 20px;
+  }
+  &__right {
+    width: 100px;
+    display: flex;
+    justify-content: end;
+    #twitter {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(149, 225, 255);
+    }
+    #blog {
+      font-size: 40px;
+      text-decoration: none;
+      color: rgb(255, 197, 109);
+    }
+    a {
+      width: 50px;
+    }
   }
 }
 .site-header.transform{

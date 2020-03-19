@@ -1,9 +1,17 @@
+-# .site-header
+-#   .site-header__list
+-#     logo
+-#   .site-header__list
+-#     =link_to "About", { anchor: 'about'} 
+-#   .site-header__list
+-#     =link_to "App", { anchor: 'main'} 
+-#   .site-header__list
+-#     Skill
+
 .site-header
-  .site-header__list
-    logo
-  .site-header__list
-    Profile
-  .site-header__list
-    App
-  .site-header__list
-    Skill
+  %h1 Wlocome to my portfolio.
+  .site-header__right
+    = link_to 'https://twitter.com/rashiemooooon' do
+      %i.fab.fa-twitter-square#twitter
+    = link_to 'https://rashiemon.wordpress.com/' do
+      %i.fab.fa-blogger#blog
