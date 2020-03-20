@@ -79,3 +79,23 @@
     }
   }
 } 
+
+.about-wrapper__box__left--textBox p {
+  -webkit-transition: all 1s;
+  -webkit-transform: translate(0, 0);
+  opacity: 3;
+}
+.about-wrapper__box__left--textBox p.move {
+  -webkit-transform: translate(-50px, 0);
+  opacity: 0;
+}
+
+.about-wrapper__box__right img {
+  -webkit-transition: all 1s;
+  -webkit-transform: translate(0, 0);
+  opacity: 3;
+}
+.about-wrapper__box__right img.move {
+  -webkit-transform: translate(50px, 0);
+  opacity: 0;
+}
