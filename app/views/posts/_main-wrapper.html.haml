@@ -4,14 +4,16 @@
   .main-wrapper__groups
     .main-wrapper__groups--app
       .main-wrapper__groups--app__link
-        = image_tag src = "otokomeshi.png", class: "main-wrapper__groups--app__link"
+        = link_to image_tag("otokomeshi.png"), 'http://18.178.138.85/users/sign_in'
       .main-wrapper__groups--app__title
-        料理投稿サイト「男飯」
+        %p 料理投稿サイト「男飯」
     .main-wrapper__groups--app
       .main-wrapper__groups--app__link
         = link_to image_tag("chat-space.png"), 'http://18.178.250.136/users/sign_in'
       .main-wrapper__groups--app__title   
-        チャットアプリ 「chat-space」 
+        %p チャットアプリ 「chat-space」 
+        %p スクール課題
     .main-wrapper__groups--app
-      .main-wrapper__groups--app__text
-        comming soon...
+      .main-wrapper__groups--app__link
+      .main-wrapper__groups--app__title
+        %p#comming comming soon...
