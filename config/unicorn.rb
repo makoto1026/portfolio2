@@ -1,9 +1,9 @@
 #サーバ上でのアプリケーションコードが設置されているディレクトリを変数に入れておく
-rails_root = File.expand_path('../../../', __FILE__)
+app_path = File.expand_path('../../../', __FILE__)
 
 worker_processes 1
 # currentを指定
-working_directory rails_root
+working_directory app_path
 
 # それぞれ、sharedの中を参照するよう変更
 listen "#{app_path}/shared/tmp/sockets/unicorn.sock"
