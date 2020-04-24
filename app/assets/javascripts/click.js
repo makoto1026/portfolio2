@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(){
-  var btn = $('button')
+// window.addEventListener('DOMContentLoaded', function(){
+//   var btn = $('button')
 
-});
+// });
