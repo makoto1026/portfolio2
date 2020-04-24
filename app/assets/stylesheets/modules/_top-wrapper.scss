@@ -1,21 +1,21 @@
-// .loading {
-//   width: 100vw;
-//   height: 100vh;
-//   transition: all 3s;
-//   background-color: black;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   z-index: 9999;
-//   .loading__spinner {
-//     width: 100px;
-//     height: 100px;
-//     margin: 350px auto;
-//     background-color: #fff;
-//     border-radius: 100%;
-//     animation: sk-scaleout 0.7s infinite ease-in-out;
-//   }
-// }
+.loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 3s;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  .loading__spinner {
+    width: 100px;
+    height: 100px;
+    margin: 350px auto;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: sk-scaleout 0.7s infinite ease-in-out;
+  }
+}
 
 @keyframes sk-scaleout {
   0% {
