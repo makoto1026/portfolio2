@@ -1,0 +1,19 @@
+.pageBtn {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(235, 235, 235);
+  opacity: 0.8;
+  color: black;
+  font-size: 60px;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  display: block;
+  position: fixed;
+  i {
+    line-height: 1.7;
+  }
+}
